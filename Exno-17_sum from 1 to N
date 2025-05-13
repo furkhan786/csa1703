@@ -1,0 +1,14 @@
+print("192311341-furkhan")
+# Recursive version
+def sum_upto(n):
+    if n == 1:
+        return 1
+    else:
+        return n + sum_upto(n - 1)
+
+# Formula version
+# def sum_upto(n):
+#     return n * (n + 1) // 2
+
+# Example usage
+print(sum_upto(5))  # Output: 15
